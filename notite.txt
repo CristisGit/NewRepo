@@ -7,3 +7,18 @@ Mammal is a Horse?
 Child classes (extended/derived) inherit the parent's state & behavior. (only if that is public or protected)
 	- can have own behavior/state 
 	- can overide parent's behavior/state
+
+Mammal
+
+size
+weight
+name
+
+
+GivesBirth()
+Eats()
+Moves()
+Talks()
+Sleeps()
+
+

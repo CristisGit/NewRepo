@@ -6,7 +6,15 @@ namespace OOP_Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Mammal mammal = new Mammal();
+            mammal.Eat();
+            mammal.Move();
+            mammal.Sleep();
+            mammal.Talk();
+
+            Horse horse = new Horse();
+            horse.Eat();
+            horse.Run();
         }
     }
 }
