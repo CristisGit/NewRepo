@@ -22,3 +22,15 @@ Talks()
 Sleeps()
 
 
+
+- multiple inharitance is not posible, only one base class is allowed
+- "multiplw inheritance" is done thru interfaces
+
+interfatele 
+- a contract that specifies what the calss should implement.
+- deffines a set of operations/proprieties/events to be implemented
+- doesn't contain state can't be instantiated,
+- all interface memebers are public.
+- an interface is implemented by a class not inherited by a class. 
+- bets practice: interfaces are names with an "I" infront of name: eg: IFlyable.
+- can introduce behavior and classes that are not related with each other.

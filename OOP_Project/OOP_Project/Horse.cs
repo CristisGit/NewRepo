@@ -11,5 +11,9 @@ namespace OOP_Project
         }
 
         //redefine somnthing in the 
+        public new void Talk()
+        {
+            Console.WriteLine("i am Horse i Talk");
+        }
     }
 }
